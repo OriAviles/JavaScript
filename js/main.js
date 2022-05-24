@@ -29,10 +29,21 @@ let divProductos = document.getElementById('productos')
             `
     })
     
+    
+    
+
     productos.forEach(producto => {
         document.getElementById(`boton${producto.id}`).addEventListener('click', () => {
+            Swal.fire({
+                position: 'top-end',
+                icon: 'success',
+                title: 'Tu producto se agregó al carrito',
+                showConfirmButton: false,
+                timer: 1500
+        })
             carrito.push(producto)
             localStorage.setItem("productosCarrito", JSON.stringify(carrito))
         })
     })
 
+    
