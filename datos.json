@@ -1,0 +1,26 @@
+[
+    {
+        "nombre": "Pop It",
+        "precio": 195,
+        "id": 1,
+        "imagen": "./multimedia/popit.jpg"
+    },
+    {
+        "nombre": "Spinner",
+        "precio": 80,
+        "id": 2,
+        "imagen": "./multimedia/spinner.jpg"
+    },
+    {
+        "nombre": "Slime",
+        "precio": 120,
+        "id": 3,
+        "imagen": "./multimedia/slime.jpg"
+    },
+    {
+        "nombre": "Squishy",
+        "precio": 245,
+        "id": 4,
+        "imagen": "./multimedia/squishy.jpg"
+    }
+]
